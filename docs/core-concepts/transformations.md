@@ -13,4 +13,4 @@ Transformations are defined within a Flow's configuration and are executed in th
 
 *   **Rename Columns:** Rename columns to match the schema of your destination or to create more descriptive field names. For example, renaming `email` to `user_email`.
 
-These transformations can be chained together to create a powerful data quality pipeline. See the [How-To Guides](./how-to/transformation-pipeline) for a practical example.
+These transformations can be chained together to create a powerful data quality pipeline. See the [How-To Guides](../how-to/building-a-transformation-pipeline) for a practical example.

@@ -3,7 +3,7 @@ id: endpoints
 title: API Endpoints
 ---
 
-This is a summary of the available API endpoints. For a full, interactive API specification, please see our [OpenAPI/Swagger documentation](/api/swagger).
+This is a summary of the available API endpoints.
 
 ## Resources
 
