@@ -3,7 +3,7 @@ id: managing-your-subscription
 title: Managing Your Subscription
 ---
 
-This guide explains how to manage your SaddleData subscription and billing details.
+This guide explains how to manage your Saddle Data subscription and billing details.
 
 ### How to view your current plan and usage
 
@@ -12,7 +12,7 @@ This guide explains how to manage your SaddleData subscription and billing detai
 
 ### How to upgrade or downgrade your plan
 
-SaddleData uses Stripe to manage subscriptions. You can access the Stripe Customer Portal to change your plan.
+Saddle Data uses Stripe to manage subscriptions. You can access the Stripe Customer Portal to change your plan.
 
 1.  In the **"Billing"** tab, click the **"Manage Subscription"** button.
 2.  This will redirect you to the Stripe Customer Portal.

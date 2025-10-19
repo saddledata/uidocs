@@ -13,6 +13,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'core-concepts/integrations',
         'core-concepts/connections',
+        'core-concepts/merged-integrations',
         'core-concepts/flows',
         'core-concepts/transformations',
         'core-concepts/scheduling',

@@ -3,7 +3,7 @@ id: scheduling
 title: Scheduling
 ---
 
-SaddleData allows you to run your Flows on a schedule, so your data is always fresh and up-to-date.
+Saddle Data allows you to run your Flows on a schedule, so your data is always fresh and up-to-date.
 
 Flows can be scheduled in two ways:
 
@@ -16,5 +16,7 @@ For example, to run a flow every day at 2:00 AM, you would use the following cro
 ```
 0 2 * * *
 ```
+
+While you can directly edit the cron expression, the UI also provides a user-friendly scheduling selector. This allows you to visually build your schedule without needing to understand the cron syntax.
 
 You can set the schedule when creating or editing a Flow.

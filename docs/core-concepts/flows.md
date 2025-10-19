@@ -3,7 +3,7 @@ id: flows
 title: Flows
 ---
 
-A **Flow** is the core component of SaddleData. It's a pipeline that moves data from a Source Connection to a Destination Connection.
+A **Flow** is the core component of Saddle Data. It's a pipeline that moves data from a Source Connection to a Destination Connection.
 
 Each Flow is defined by a simple configuration that specifies:
 

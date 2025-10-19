@@ -3,7 +3,7 @@ id: building-a-transformation-pipeline
 title: Building a Transformation Pipeline
 ---
 
-One of the most powerful features of SaddleData is the ability to chain multiple in-flight transformations together. This guide will show you how to build a simple yet practical transformation pipeline.
+One of the most powerful features of Saddle Data is the ability to chain multiple in-flight transformations together. This guide will show you how to build a simple yet practical transformation pipeline.
 
 Let's say we have a `users` table with the following columns:
 
@@ -65,4 +65,4 @@ In your Flow configuration, you would add a `transformations` array like this:
 }
 ```
 
-When this Flow runs, SaddleData will perform the transformations in order, resulting in a clean, targeted table in your destination.
+When this Flow runs, Saddle Data will perform the transformations in order, resulting in a clean, targeted table in your destination.

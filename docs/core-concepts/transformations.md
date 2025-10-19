@@ -3,7 +3,7 @@ id: transformations
 title: Transformations
 ---
 
-SaddleData allows you to perform powerful in-flight transformations on your data as it moves from source to destination. This means you can clean, reshape, and filter your data without needing a separate transformation tool.
+Saddle Data allows you to perform powerful in-flight transformations on your data as it moves from source to destination. This means you can clean, reshape, and filter your data without needing a separate transformation tool.
 
 Transformations are defined within a Flow's configuration and are executed in the order they are listed. The currently supported transformation types are:
 
