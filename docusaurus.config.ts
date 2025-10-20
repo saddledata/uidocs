@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'SaddleData',
+  title: 'Saddle Data',
   tagline: 'Modern, developer-friendly ELT',
   favicon: 'img/favicon.ico',
 
@@ -50,7 +50,7 @@ const config: Config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'SaddleData',
+      title: 'Saddle Data',
       logo: {
         alt: 'SaddleData Logo',
         src: 'img/logo.svg',
