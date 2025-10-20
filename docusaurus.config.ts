@@ -63,7 +63,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/saddledata/saddledata',
+          href: 'https://github.com/saddledata/uidocs',
           label: 'GitHub',
           position: 'right',
         },
@@ -99,12 +99,12 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/saddledata/saddledata',
+              href: 'https://github.com/saddledata/uidocs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} SaddleData, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Saddle Data, Inc.`,
     },
     prism: {
       theme: prismThemes.github,
