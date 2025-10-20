@@ -90,7 +90,7 @@ const config: Config = {
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/saddledata',
+              href: 'https://discord.gg/G9zfAkr3',
             },
           ],
         },
