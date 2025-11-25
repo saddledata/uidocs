@@ -22,3 +22,11 @@ When creating a BigQuery Integration, you will need to provide the following inf
 *   **Project ID:** The ID of your Google Cloud Platform project.
 *   **Dataset:** The BigQuery dataset you want to write to.
 *   **Service Account JSON:** The contents of the JSON key file for your service account.
+
+## Sync Modes
+
+When using BigQuery as a destination, you can choose from the following sync modes:
+
+*   **Full Refresh - Overwrite:** Replaces all data in the destination table.
+*   **Incremental - Append:** Appends new records to the destination table.
+*   **Incremental - Deduped (Upsert):** Updates existing records and inserts new records based on a primary key.
