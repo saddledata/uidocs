@@ -23,3 +23,20 @@ When creating a MySQL Integration, you will need to provide the following inform
 *   **User:** The username for your dedicated read-only user.
 *   **Password:** The password for the user.
 *   **Database:** The name of the database you want to connect to.
+
+## Sync Modes
+
+### MySQL as a Source
+
+When using MySQL as a source, you can choose from the following sync modes:
+
+*   **Full Refresh:** Reads all data from the table.
+*   **Incremental:** Reads only new rows from the table based on a cursor column.
+
+### MySQL as a Destination
+
+When using MySQL as a destination, you can choose from the following sync modes:
+
+*   **Full Refresh - Overwrite:** Replaces all data in the destination table.
+*   **Incremental - Append:** Appends new records to the destination table.
+*   **Incremental - Deduped (Upsert):** Updates existing rows and inserts new rows based on a primary key, using an `INSERT ... ON DUPLICATE KEY UPDATE` statement.

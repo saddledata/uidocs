@@ -20,6 +20,14 @@ When creating an Email Report Connection, you will need to provide the following
 *   **Subject:** The subject of the email.
 *   **Body:** The body of the email.
 
+## Sync Modes
+
+When using Email Reports as a destination, all sync modes will result in a new email being sent with a CSV attachment containing the records from the sync.
+
+*   **Full Refresh - Overwrite:** Sends all records from the source.
+*   **Incremental - Append:** Sends only new records from thesource.
+*   **Incremental - Deduped (Upsert):** This mode is not supported for Email Reports and will behave as **Incremental - Append**.
+
 In your Flow configuration, the `destination.name` will be used as the filename for the CSV attachment.
 
 **Example Flow Configuration:**
