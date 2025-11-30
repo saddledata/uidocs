@@ -34,6 +34,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'connector-reference/postgresql',
         'connector-reference/mysql',
+        'connector-reference/cassandra',
         'connector-reference/google-sheets',
         'connector-reference/bigquery',
         'connector-reference/email-reports',
