@@ -40,3 +40,10 @@ When using PostgreSQL as a destination, you can choose from the following sync m
 *   **Full Refresh - Overwrite:** Replaces all data in the destination table.
 *   **Incremental - Append:** Appends new records to the destination table.
 *   **Incremental - Deduped (Upsert):** Updates existing rows and inserts new rows based on a primary key, using an `INSERT ... ON CONFLICT DO UPDATE` statement.
+
+## Schema Evolution
+
+PostgreSQL supports full Schema Drift handling:
+
+*   **Source:** Detects new and dropped columns.
+*   **Destination:** Supports `ALTER TABLE` operations to automatically add new columns when the "Automatically Update Destination" policy is active or when a drift is manually approved.

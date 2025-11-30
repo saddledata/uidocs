@@ -40,3 +40,11 @@ When using Cassandra as a destination, you can choose from the following sync mo
 *   **Full Refresh - Overwrite:** Replaces all data in the destination table.
 *   **Incremental - Append:** Appends new records to the destination table.
 *   **Incremental - Deduped (Upsert):** Updates existing rows and inserts new rows based on a primary key, as Cassandra's `INSERT` is an upsert.
+
+## Schema Evolution
+
+Cassandra supports full Schema Drift handling:
+
+*   **Source:** Detects new and dropped columns by querying `system_schema.columns`.
+*   **Destination:** Supports `ALTER TABLE` operations to automatically add new columns when the "Automatically Update Destination" policy is active or when a drift is manually approved.
+*   **Namespace Handling:** Robustly handles fully qualified table names (e.g., `keyspace.table`) and falls back to the configured keyspace if not specified.
