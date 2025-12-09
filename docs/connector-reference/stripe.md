@@ -17,6 +17,13 @@ When creating a Stripe Integration, you will need to provide the following infor
 
 *   **API Key:** Your Stripe secret API key.
 
+## Supported Streams
+
+SaddleData currently supports the following Stripe resources:
+*   **Customers**
+*   **Charges**
+*   **Invoices**
+
 ## Sync Modes
 
 ### Stripe as a Source
