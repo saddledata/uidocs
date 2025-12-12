@@ -5,13 +5,22 @@ title: Salesforce
 
 ## Overview
 
-Salesforce is a leading customer relationship management (CRM) platform. SaddleData connects to Salesforce as a **Source** to sync your CRM data to your data warehouse or other destinations.
+Salesforce is a leading customer relationship management (CRM) platform. SaddleData connects to Salesforce as both a **Source** and a **Destination**, allowing you to sync data to and from your CRM.
 
 ## Prerequisites
 
 To connect to Salesforce, you will need:
 *   A Salesforce account with API access enabled.
 *   A connected app or user credentials for authentication.
+
+### Permissions
+
+The Salesforce user must have the following permissions:
+*   **API Enabled:** System permission to allow API access.
+*   **Object Access:**
+    *   **Source:** "Read" permission for any objects you wish to extract (e.g., Contact, Account).
+    *   **Destination:** "Create", "Edit", and "Delete" permissions for objects you wish to write to.
+*   **Field Level Security:** Ensure the user has visibility into the fields you intend to sync.
 
 ## Configuration
 
@@ -26,7 +35,7 @@ SaddleData currently supports the **OAuth 2.0 Username-Password Flow**. You will
 
 ## Supported Data
 
-SaddleData supports extracting data from standard and custom Salesforce objects.
+SaddleData supports standard and custom Salesforce objects.
 
 ### Sync Modes
 
